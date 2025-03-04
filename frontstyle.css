@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EAF2F8; /* Calm, light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #2F3A45;
+}
+
+/* Styling for the front page container */
+.front-page-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.front-page-container:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #4A90E2; /* Calm blue for the heading */
+}
+
+/* Styling for the description text */
+p {
+    font-size: 18px;
+    color: #50B4A2; /* Calm green text */
+    margin-bottom: 30px;
+}
+
+/* Start Game Button */
+a {
+    text-decoration: none; /* Remove the underline from the link */
+}
+
+.start-game-btn {
+    padding: 14px 28px;
+    font-size: 20px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.start-game-btn:hover {
+    background-color: #357ABD;
+}
